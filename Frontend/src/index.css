@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: "Montserrat", sans-serif;
+    
+}
+body{min-width: 100%;
+overflow-x: hidden;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.active hr{
+    @apply block
+    
+}
+.active li{
+    @apply opacity-100
+}
