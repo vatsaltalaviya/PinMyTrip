@@ -3,28 +3,28 @@ import React from 'react'
 const Gallery = () => {
     const data = [
         {
-          title: "The Himalayas",
-          image: "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3Vuc2V0fGVufDB8fDB8fHww",
+          title: "Beach Vibes",
+          image: "https://images.unsplash.com/photo-1622375734599-925cb5328554?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dW5zcGFsc2h8ZW58MHx8MHx8fDA%3D",
         },
         {
-          title: "Beach Vibes",
-          image: "https://images.unsplash.com/photo-1512641406448-6574e777bec6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3Vuc2V0fGVufDB8fDB8fHww",
+          title: "Dubai",
+          image: "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHViYWl8ZW58MHx8MHx8fDA%3D",
         },
         {
           title: "City Lights",
-          image: "https://images.unsplash.com/photo-1517685633466-403d6955aeab?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D",
+          image: "https://plus.unsplash.com/premium_photo-1661943659036-aa040d92ee64?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZHViYWl8ZW58MHx8MHx8fDA%3D",
         },
         {
           title: "Forest Trail",
-          image: "https://images.unsplash.com/photo-1481988535861-271139e06469?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D",
+          image: "https://images.unsplash.com/photo-1507041957456-9c397ce39c97?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9yZXN0fGVufDB8fDB8fHww",
         },
         {
           title: "Desert Adventure",
-          image: "https://images.unsplash.com/photo-1588001832198-c15cff59b078?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D",
+          image: "https://plus.unsplash.com/premium_photo-1673264933092-a795ddc9f11b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGVzZXJ0fGVufDB8fDB8fHww",
         },
         {
           title: "Snow Escape",
-          image: "https://cdn.cosmos.so/c33e532e-867e-423b-b007-1ae0c010ee7e?format=jpeg",
+          image: "https://plus.unsplash.com/premium_photo-1667579187855-fed841be2ec9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c25vd3xlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           title: "Tropical Paradise",
@@ -40,15 +40,43 @@ const Gallery = () => {
         },
         {
           title: "Lakeside Calm",
-          image: "https://cdn.cosmos.so/d6e4a413-4985-4305-8745-b0d48414bfb1?format=jpeg",
+          image: "https://plus.unsplash.com/premium_photo-1669741908255-4c4132306000?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFrZXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
-          title: "Desert Adventure",
-          image: "https://images.unsplash.com/photo-1588001832198-c15cff59b078?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D",
+          title: "Forest Vibes",
+          image: "https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9yZXN0fGVufDB8fDB8fHww",
         },
         {
           title: "Snow Escape",
-          image: "https://cdn.cosmos.so/c33e532e-867e-423b-b007-1ae0c010ee7e?format=jpeg",
+          image: "https://plus.unsplash.com/premium_photo-1667579187855-fed841be2ec9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c25vd3xlbnwwfHwwfHx8MA%3D%3D",
+        },
+        {
+          title: "Forest Paradise",
+          image: "https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9yZXN0fGVufDB8fDB8fHww",
+        },
+        {
+          title: "Cultural Landmarks",
+          image: "https://images.unsplash.com/photo-1474524955719-b9f87c50ce47?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D",
+        },
+        {
+          title: "Himalyas",
+          image: "https://images.unsplash.com/photo-1631377952034-a0460eba141f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGltYWxheWF8ZW58MHx8MHx8fDA%3D",
+        },
+        {
+          title: "Lakeside Calm",
+          image: "https://plus.unsplash.com/premium_photo-1669741908255-4c4132306000?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFrZXxlbnwwfHwwfHx8MA%3D%3D",
+        },
+        {
+          title: "Tropical Paradise",
+          image: "https://cdn.cosmos.so/546a497e-6fce-4c22-8303-d489b4095c5c?format=jpeg",
+        },
+        {
+          title: "Desert Adventure",
+          image: "https://plus.unsplash.com/premium_photo-1673264933092-a795ddc9f11b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGVzZXJ0fGVufDB8fDB8fHww",
+        },
+        {
+          title: "Snow Escape",
+          image: "https://plus.unsplash.com/premium_photo-1667579187855-fed841be2ec9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c25vd3xlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           title: "Tropical Paradise",
@@ -64,44 +92,16 @@ const Gallery = () => {
         },
         {
           title: "Lakeside Calm",
-          image: "https://cdn.cosmos.so/d6e4a413-4985-4305-8745-b0d48414bfb1?format=jpeg",
-        },
-        {
-          title: "Tropical Paradise",
-          image: "https://cdn.cosmos.so/546a497e-6fce-4c22-8303-d489b4095c5c?format=jpeg",
+          image: "https://plus.unsplash.com/premium_photo-1669741908255-4c4132306000?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFrZXxlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           title: "Desert Adventure",
-          image: "https://images.unsplash.com/photo-1588001832198-c15cff59b078?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D",
-        },
-        {
-          title: "Snow Escape",
-          image: "https://cdn.cosmos.so/c33e532e-867e-423b-b007-1ae0c010ee7e?format=jpeg",
-        },
-        {
-          title: "Tropical Paradise",
-          image: "https://cdn.cosmos.so/546a497e-6fce-4c22-8303-d489b4095c5c?format=jpeg",
-        },
-        {
-          title: "Cultural Landmarks",
-          image: "https://images.unsplash.com/photo-1474524955719-b9f87c50ce47?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D",
-        },
-        {
-          title: "Sunset Views",
-          image: "https://plus.unsplash.com/premium_photo-1664121799890-b5605834b72a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D",
-        },
-        {
-          title: "Lakeside Calm",
-          image: "https://cdn.cosmos.so/d6e4a413-4985-4305-8745-b0d48414bfb1?format=jpeg",
-        },
-        {
-          title: "Desert Adventure",
-          image: "https://images.unsplash.com/photo-1588001832198-c15cff59b078?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D",
+          image: "https://plus.unsplash.com/premium_photo-1673264933092-a795ddc9f11b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGVzZXJ0fGVufDB8fDB8fHww",
         },
         
         {
           title: "Snow Escape",
-          image: "https://cdn.cosmos.so/c33e532e-867e-423b-b007-1ae0c010ee7e?format=jpeg",
+          image: "https://plus.unsplash.com/premium_photo-1667579187855-fed841be2ec9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c25vd3xlbnwwfHwwfHx8MA%3D%3D",
         },
         {
           title: "Cultural Landmarks",
@@ -109,7 +109,7 @@ const Gallery = () => {
       },
       {
         title: "Lakeside Calm",
-        image: "https://cdn.cosmos.so/d6e4a413-4985-4305-8745-b0d48414bfb1?format=jpeg",
+        image: "https://plus.unsplash.com/premium_photo-1669741908255-4c4132306000?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFrZXxlbnwwfHwwfHx8MA%3D%3D",
       },
       {
           title: "Sunset Views",

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="relative w-full h-screen bg-no-repeat bg-cover bg-[url('https://img.freepik.com/free-photo/beautiful-aerial-shot-fronalpstock-mountains-switzerland-beautiful-pink-blue-sky_181624-9315.jpg?ga=GA1.1.1472898491.1745146924&semt=ais_hybrid&w=740')] ">
+    <div className="relative w-full  bg-no-repeat bg-cover bg-[url('https://img.freepik.com/free-photo/beautiful-aerial-shot-fronalpstock-mountains-switzerland-beautiful-pink-blue-sky_181624-9315.jpg?ga=GA1.1.1472898491.1745146924&semt=ais_hybrid&w=740')] ">
       <div className=" w-full py-10 px-3 md:px-8">
         <div className="hidden lg:block">
         <h1 className="text-sm md:text-4xl text-white text-center font-medium">
@@ -14,12 +14,12 @@ const Footer = () => {
           extraordinary adventures with us!
         </h1>
         </div>
-        <div className="absolute bottom-3 md:bottom-6">
+        <div className="mt-10 ">
         <div className=" text-white mt-3">
-          <div className="flex flex-col md:flex-row justify-between">
+          <div className="flex  flex-col md:flex-row justify-start">
             <div>
               <h1 className="text-3xl font-medium">PINMYTRIP</h1>
-              <h3 className="text-xs w-96 md:w-sm md:text-sm py-5 md:py-0 text-white">
+              <h3 className="text-xs w-64 md:w-96 md:text-sm py-5 md:py-0 text-white">
                 From serene getaways to thrilling adventures, we help you find
                 experiences tailored just for you. Explore the world’s
                 wonders with ease,
@@ -45,9 +45,11 @@ const Footer = () => {
                   <li className="mt-2">Youtube</li>
                 </ul>
               </div>
+            </div>
+          </div>
               <div>
                 <h1 className="text-xl font-semibold">Contact</h1>
-                <p className="text-sm w-80 md:w-sm py-1.5 text-white">
+                <p className="text-sm w-30 md:w-sm py-1.5 text-white">
                 PINMYTRIP Travel Solutions
                 123, Lotus Avenue, Near Green Park,
                 Andheri West, Mumbai - 400053, Maharashtra, India
@@ -55,8 +57,6 @@ const Footer = () => {
                 <p className="text-sm text-white">+91 98765 43210</p>
                 
               </div>
-            </div>
-          </div>
         </div>
         <div className="flex">
             <h3 className="text-xs md:text-xl py-3 mt-36  text-white md:py-0 font-light">© {currentYear} PINMYTRIP. All rights reserved.</h3>

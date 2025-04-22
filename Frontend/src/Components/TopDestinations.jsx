@@ -7,7 +7,7 @@ const TopDestinations = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="p-8">
+    <div className="p-8" id="Explore">
       <p className="text-sm font-medium text-zinc-400">[Destinations]</p>
       <div className="flex flex-col md:flex-row justify-between items-center">
         <p className="w-full md:w-2/3 text-2xl md:text-4xl font-medium tracking-tight my-3">

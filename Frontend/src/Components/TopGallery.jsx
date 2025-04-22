@@ -12,7 +12,7 @@ const TopGallery = () => {
       <div className="pr-30 relative">
         <p className="text-sm font-medium text-zinc-400">[Gallery]</p>
         <div className="absolute bottom-3 hidden md:block">
-          <button onClick={()=>navigate('/gallery')} className="font-medium text-l px-4 py-2 rounded-2xl transition-all duration-200 hover:bg-black hover:text-white cursor-pointer">
+          <button onClick={()=>{navigate('/gallery'); scrollTo(0,0)}} className="font-medium text-l px-4 py-2 rounded-2xl transition-all duration-200 hover:bg-black hover:text-white cursor-pointer">
             Explore more{" "}
             <span>
               <i className="ri-arrow-right-up-line"></i>
@@ -43,7 +43,7 @@ const TopGallery = () => {
 
         {/* Mobile Explore button */}
         <div className="md:hidden py-5 flex justify-center">
-          <button onClick={()=>navigate('/gallery')} className="font-medium text-l px-4 py-2 rounded-2xl transition-all duration-200 hover:bg-black hover:text-white cursor-pointer">
+          <button onClick={()=>{navigate('/gallery'); scrollTo(0,0)}} className="font-medium text-l px-4 py-2 rounded-2xl transition-all duration-200 hover:bg-black hover:text-white cursor-pointer">
             Explore more
             <span>
               <i className="ri-arrow-right-up-line"></i>

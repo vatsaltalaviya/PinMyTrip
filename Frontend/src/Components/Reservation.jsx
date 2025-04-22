@@ -1,11 +1,16 @@
 import React, { useContext, useState } from "react";
 import { destinationDataContext } from '../Context/AppContext'
+import { useNavigate } from "react-router-dom";
 
 
 const Reservation = () => {
 
+  const navigate = useNavigate();
+
   const [count, setCount] = useState(0)
-  const{randomDestination} =  useContext(destinationDataContext);
+ const{destinations} =  useContext(destinationDataContext);
+
+ const randomDestination = destinations.filter((item) => item.recommendedDays > 0).sort(() => Math.random() - 0.5).slice(0, 5)
   
   const isDataReady = Array.isArray(randomDestination) && randomDestination.length > 0;
   const current = isDataReady ? randomDestination[count] : null;
@@ -48,7 +53,7 @@ const Reservation = () => {
             </div>
             <div className='mt-3 md:mt-30'>
                 <h1 className='text-2xl font-semibold'>From  ₹<span>{current.amount}</span></h1>
-                <button className='mt-2 px-5 py-1.5 rounded-full border border-black'>Booking Now</button>
+                <button onClick={()=>navigate(`/Booking/${current.cityName}`)} className='mt-2 px-5 py-1.5 rounded-full border border-black'>Booking Now</button>
             </div>
         </div>
       </div>
