@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const [isScrolled, setisScrolled] = useState(false);
   const [isShowMenu, setIsShowMenu] = useState(false);
-  const [IsLogin, setIsLogin] = useState(false);
+  
 
   useEffect(() => {
     const handleScroll = () => {

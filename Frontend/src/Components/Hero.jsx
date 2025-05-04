@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
         </div>
         <div className="text-white">
-          <p className="font-medium text-l pt-4 md:pt-1  hover:text-black cursor-pointer"><a href="#Explore">Explore Now <span><i className="ri-arrow-down-long-line"></i></span></a></p>
+          <p className="font-medium text-l pt-4 md:pt-1 animate-bounce  hover:text-black cursor-pointer"><a href="#About">Explore Now <span><i className="ri-arrow-down-long-line"></i></span></a></p>
         </div>
       </div>
     </div>

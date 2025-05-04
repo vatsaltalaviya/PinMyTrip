@@ -32,7 +32,7 @@ const AboutUs = () => {
   }, [isInView, hasAnimated])
 
   return (
-    <div ref={ref} className='p-8 pt-15 flex flex-col md:flex-row'>
+    <div id='About' ref={ref} className='p-8 pt-15 flex flex-col md:flex-row'>
       <div className='md:pr-30'>
         <p className='text-sm font-medium text-zinc-400'>[AboutUs]</p>
       </div>
