@@ -6,8 +6,6 @@ import axios from "axios";
 export const destinationDataContext = createContext();
 const AppContext = ({ children }) => {
 
-
-
   return (
     <destinationDataContext.Provider
       value={{

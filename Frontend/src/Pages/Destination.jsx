@@ -15,8 +15,8 @@ const Destination = () => {
         
         { destinations.map((destination, index) => (
           <Link to={`/Destination/${destination.cityName}`} onClick={()=>scrollTo(0,0)} key={index}>
-          <div className="mb-4 relative break-inside-avoid rounded md:w-full border transform hover:-translate-y-4 transition-transform duration-200 h-[300px] md:h-[55vh] overflow-hidden">
-          <img src={destination.image} className="w-full h-2/3 object-fill" alt={destination.cityName} />
+          <div className="mb-4 relative break-inside-avoid rounded md:w-full border h-[300px] md:h-[55vh] overflow-hidden">
+          <img src={destination.image} className="w-full h-2/3 object-fill transform transition-transform duration-200 hover:scale-105" alt={destination.cityName} />
           <div className="absolute bottom-0 bg-white  text-gray-500 w-full px-1.5 h-[100px] sm:h-[110px] md:h-36">
             <p className="text-sm sm:text-xl md:text-[2vw] font-medium mt-3 mb-1.5">
               {destination.cityName}
